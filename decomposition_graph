@@ -1,0 +1,59 @@
+// Concept decomposition graph
+digraph {
+	"Network infrastructure"
+	"Mobile operator" -> "Network infrastructure" [label=includes]
+	"Subscriber database"
+	"Mobile operator" -> "Subscriber database" [label=includes]
+	Services
+	"Mobile operator" -> Services [label=includes]
+	"Tariff plans"
+	"Mobile operator" -> "Tariff plans" [label=includes]
+	"Billing system"
+	"Mobile operator" -> "Billing system" [label=includes]
+	"Core network"
+	"Network infrastructure" -> "Core network" [label=includes]
+	"Radio access network"
+	"Network infrastructure" -> "Radio access network" [label=includes]
+	"Network elements"
+	"Network infrastructure" -> "Network elements" [label=includes]
+	"Network management system"
+	"Network infrastructure" -> "Network management system" [label=includes]
+	"Interconnection system"
+	"Network infrastructure" -> "Interconnection system" [label=includes]
+	Subscribers
+	"Subscriber database" -> Subscribers [label=includes]
+	Database
+	"Subscriber database" -> Database [label=includes]
+	"Network services"
+	Services -> "Network services" [label=includes]
+	"Mobile data"
+	Services -> "Mobile data" [label=includes]
+	"Voice calls"
+	Services -> "Voice calls" [label=includes]
+	Sms
+	Services -> Sms [label=includes]
+	"Customer service"
+	Services -> "Customer service" [label=includes]
+	"Technical support"
+	Services -> "Technical support" [label=includes]
+	"Billing support"
+	Services -> "Billing support" [label=includes]
+	"Price policy"
+	"Tariff plans" -> "Price policy" [label=includes]
+	Benefits
+	"Tariff plans" -> Benefits [label=includes]
+	"Payment methods"
+	"Tariff plans" -> "Payment methods" [label=includes]
+	Promotions
+	"Tariff plans" -> Promotions [label=includes]
+	"Payment processing"
+	"Billing system" -> "Payment processing" [label=includes]
+	"Customer data"
+	"Billing system" -> "Customer data" [label=includes]
+	"Financial reporting"
+	"Billing system" -> "Financial reporting" [label=includes]
+	Invoicing
+	"Billing system" -> Invoicing [label=includes]
+	"Billing automation"
+	"Billing system" -> "Billing automation" [label=includes]
+}

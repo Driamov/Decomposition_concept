@@ -1,0 +1,73 @@
+// Inverse concept decomposition graph
+digraph {
+	"Network coverage"
+	"Network coverage" -> "Mobile operator" [label=includes]
+	"Quality of service"
+	"Quality of service" -> "Mobile operator" [label=includes]
+	"Price plans"
+	"Price plans" -> "Mobile operator" [label=includes]
+	"Customer service"
+	"Customer service" -> "Mobile operator" [label=includes]
+	"Innovative products"
+	"Innovative products" -> "Mobile operator" [label=includes]
+	"Fast speed"
+	"Fast speed" -> "Network coverage" [label=includes]
+	"Reliable connection"
+	"Reliable connection" -> "Network coverage" [label=includes]
+	"Network infrastructure"
+	"Network infrastructure" -> "Network coverage" [label=includes]
+	"Wide range"
+	"Wide range" -> "Network coverage" [label=includes]
+	"High capacity"
+	"High capacity" -> "Network coverage" [label=includes]
+	"Network features"
+	"Network features" -> "Network coverage" [label=includes]
+	"Advanced technologies"
+	"Advanced technologies" -> "Network coverage" [label=includes]
+	"Flexible options"
+	"Flexible options" -> "Network coverage" [label=includes]
+	"Cost efficiency"
+	"Cost efficiency" -> "Network coverage" [label=includes]
+	"Affordable prices"
+	"Affordable prices" -> "Network coverage" [label=includes]
+	"Cost optimization"
+	"Cost optimization" -> "Network coverage" [label=includes]
+	"Customer support"
+	"Customer support" -> "Network coverage" [label=includes]
+	"Professional assistance"
+	"Professional assistance" -> "Network coverage" [label=includes]
+	"Prompt response"
+	"Prompt response" -> "Network coverage" [label=includes]
+	"Network speed"
+	"Network speed" -> "Quality of service" [label=includes]
+	"Data security"
+	"Data security" -> "Quality of service" [label=includes]
+	Accessibility
+	Accessibility -> "Quality of service" [label=includes]
+	"Network quality"
+	"Network quality" -> "Price plans" [label=includes]
+	"Data allowance"
+	"Data allowance" -> "Price plans" [label=includes]
+	"Call minutes"
+	"Call minutes" -> "Price plans" [label=includes]
+	"Text messages"
+	"Text messages" -> "Price plans" [label=includes]
+	"Quality products"
+	"Quality products" -> "Customer service" [label=includes]
+	"Fast delivery"
+	"Fast delivery" -> "Customer service" [label=includes]
+	"User-friendly app"
+	"User-friendly app" -> "Customer service" [label=includes]
+	"Attentive staff"
+	"Attentive staff" -> "Customer service" [label=includes]
+	"Robust technology"
+	"Robust technology" -> "Innovative products" [label=includes]
+	"Comprehensive research"
+	"Comprehensive research" -> "Innovative products" [label=includes]
+	"Quality customer service"
+	"Quality customer service" -> "Innovative products" [label=includes]
+	"Strategic partnerships"
+	"Strategic partnerships" -> "Innovative products" [label=includes]
+	"Cutting-edge design"
+	"Cutting-edge design" -> "Innovative products" [label=includes]
+}
